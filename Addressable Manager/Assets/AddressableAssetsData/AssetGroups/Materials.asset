@@ -15,9 +15,16 @@ MonoBehaviour:
   m_GroupName: Materials
   m_Data:
     m_SerializedData: []
-  m_GUID: cecd49d06d6e41b49aa5f46fafc49b67
-  m_SerializeEntries: []
+  m_GUID: e87e52b29b0c27b41af4a96a6921a1e0
+  m_SerializeEntries:
+  - m_GUID: 776677ab3818fb249adaca05f4e04545
+    m_Address: Assets/ExampleAssets/Materials/EmbersParticle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d97cbfe5ca3fa284aaeb971b7a6ba420, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: 0925a4b4ae1fc8f4a85a87540010095d, type: 2}
+    - {fileID: 11400000, guid: b242cf774c2e50e44baca0a5cd1f8fc1, type: 2}

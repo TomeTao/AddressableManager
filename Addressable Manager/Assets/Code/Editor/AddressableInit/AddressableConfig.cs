@@ -63,7 +63,7 @@ public static class AddressableConfig
             var m_group = AssetDatabase.LoadAssetAtPath<AddressableGroup>(asset);
             if (m_group != null)
             {
-               var group= CreateGroup<SchemaType>(m_group.name);
+               var group= CreateGroup<SchemaType>(m_group.name,false);
                 foreach(var item in m_group.assets)
                 {
                     var guid = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(item._assetReference));

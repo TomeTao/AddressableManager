@@ -19,7 +19,7 @@ namespace UnityEditor.AddressableManager.Builder
        
         public static bool BuildAddressables(string settings= "",string profileName="",string dataBuilder="", bool clearCatch = true)
         {
-            SetAddressableAssetSetting(String.IsNullOrEmpty(settings) ? settings_asset: settings);
+            SetAddressableAssetSetting(settings);
             SetActiveProfile(String.IsNullOrEmpty(profileName) ? profile_name : profileName);
             IDataBuilder builderScript
                 = AssetDatabase.LoadAssetAtPath<ScriptableObject>(String.IsNullOrEmpty(dataBuilder) ? build_script : dataBuilder) as IDataBuilder;
@@ -65,7 +65,7 @@ namespace UnityEditor.AddressableManager.Builder
             return success;
         }
 
-        private static void SetAddressableAssetSetting(string settingsAsset)
+        private static void SetAddressableAssetSetting(string settingsAsset="")
         {
             // This step is optional, you can also use the default settings:
             //settings = AddressableAssetSettingsDefaultObject.Settings;
@@ -74,17 +74,17 @@ namespace UnityEditor.AddressableManager.Builder
                     as AddressableAssetSettings;
             if (settings == null)
             {
-                Debug.LogError($"{settingsAsset} couldn't be found or isn't " +
-                              $"a settings object.");
+                //Debug.LogError($"{settingsAsset} couldn't be found or isn't " +
+                //              $"a settings object.");
+                settings = AddressableAssetSettingsDefaultObject.Settings;
             }
-            settings = AddressableAssetSettingsDefaultObject.Settings;
         }
 
-        private static void SetActiveProfile(string profile)
+        private static void SetActiveProfile(string profileName)
         {
-            string profileId = settings.profileSettings.GetProfileId(profile);
+            string profileId = settings.profileSettings.GetProfileId(profileName);
             if (String.IsNullOrEmpty(profileId))
-                Debug.LogWarning($"Couldn't find a profile named, {profile}, " +
+                Debug.LogWarning($"Couldn't find a profile named, {profileName}, " +
                                  $"using current profile instead.");
             else
                 settings.activeProfileId = profileId;

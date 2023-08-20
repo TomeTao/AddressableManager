@@ -71,6 +71,7 @@
     <Compile Include="Assets\ExampleAssets\Scripts\DataContainer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\StreamingAssets\aa\AddressablesLink\link.xml" />
     <None Include="Assets\ExampleAssets\Shaders\SurfaceShader_VC.shader" />
   </ItemGroup>
   <ItemGroup>

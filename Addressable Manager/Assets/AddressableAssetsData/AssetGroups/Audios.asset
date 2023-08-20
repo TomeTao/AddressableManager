@@ -15,9 +15,51 @@ MonoBehaviour:
   m_GroupName: Audios
   m_Data:
     m_SerializedData: []
-  m_GUID: fd2b3b4cf31af514a9605af566364307
-  m_SerializeEntries: []
+  m_GUID: 046b27d04b6aeb64dafde68e7ef3360e
+  m_SerializeEntries:
+  - m_GUID: dc6614beca09347ec9b258f12d154bdd
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-02.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: 19f89c6e740e7447f9e12a8310d3e973
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-03.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: b99da9a57308d4ba1bee1cf1d9038376
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-05.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: 2c5292ba5cf254919a6b9e2b18e04f49
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-07.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: 0c008ee3ee72a4362a35be25fa5de043
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-15.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: 724131bc8a7f34041bb9f1701f0cb58d
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-16.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: ffb159a21c8a04135a5616979c828fab
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-21.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
+  - m_GUID: d8d04c6f80a1140db85ede568dab1f51
+    m_Address: Assets/ExampleAssets/Audio/DM-CGS-22.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audios
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d97cbfe5ca3fa284aaeb971b7a6ba420, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: 73fc68bc7cf53434eadc4157303fb39c, type: 2}
+    - {fileID: 11400000, guid: cd5fc9d33dab43442afb951a6414a29c, type: 2}

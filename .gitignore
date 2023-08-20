@@ -6,3 +6,6 @@ Addressable Manager/.vs/*
 Addressable Manager/obj/*
 Addressable Manager/.vsconfig
 Addressable Manager/Addressable Manager.sln
+Addressable Manager/Assets/AddressableAssetsData/*
+Addressable Manager/Assets/StreamingAssets/aa/*
+Addressable Manager/Assets/StreamingAssets/aa.meta

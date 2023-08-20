@@ -15,9 +15,16 @@ MonoBehaviour:
   m_GroupName: Textures
   m_Data:
     m_SerializedData: []
-  m_GUID: 6931d81e4df181b41adc5c76df4a1f2f
-  m_SerializeEntries: []
+  m_GUID: a4cdad42645f6924f8302b8dadca1899
+  m_SerializeEntries:
+  - m_GUID: 838696ee09635f647b630a61fac71a72
+    m_Address: Assets/ExampleAssets/Textures/FlameParticleSheet.tif
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Textures
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d97cbfe5ca3fa284aaeb971b7a6ba420, type: 2}
   m_SchemaSet:
-    m_Schemas: []
+    m_Schemas:
+    - {fileID: 11400000, guid: c3bcfde2b25c340489e77a67c915ed27, type: 2}
+    - {fileID: 11400000, guid: 7422c5e003ffdb04bbe9e6b794e9a02d, type: 2}
