@@ -2,6 +2,7 @@
 Addressable Manager/Library/*
 Addressable Manager/Temp/*
 Addressable Manager/Logs/*
+Addressable Manager/.vs/*
+Addressable Manager/obj/*
 Addressable Manager/.vsconfig
 Addressable Manager/Addressable Manager.sln
-
