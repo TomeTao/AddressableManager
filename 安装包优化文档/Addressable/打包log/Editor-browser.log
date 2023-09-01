@@ -1,0 +1,4 @@
+[0306/113113.016:INFO:API.cpp(289)] zfb_init: Started browser
+[0306/113113.017:INFO:API.cpp(291)] zfb_init: Using --disable-smooth-scrolling
+[0306/113113.017:INFO:API.cpp(291)] zfb_init: Using --enable-system-flash
+[0306/113213.697:INFO:API.cpp(350)] zfb_shutdown called on thread 24032

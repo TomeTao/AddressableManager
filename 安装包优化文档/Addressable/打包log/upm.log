@@ -1,0 +1,16 @@
+[2023-03-14T10:22:45.922Z][INFO] Command-line: D:\\software\\unity2020\\2020.3.13f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe -s 12356 -p 62229 -l 2
+[2023-03-14T10:22:45.931Z][INFO] Creating server instance
+[2023-03-14T10:22:45.973Z][INFO] Starting server
+[2023-03-14T10:22:45.983Z][INFO] Server started on port [62229]
+[2023-03-14T10:22:46.351Z][INFO] GET '/health' <-- Request received
+[2023-03-14T10:22:46.353Z][INFO] GET '/health' --> 200 (1 ms)
+[2023-03-14T10:22:54.354Z][INFO] GET '/project/registries' <-- Request received
+[2023-03-14T10:22:54.377Z][INFO] GET '/project/registries' --> 200 (22 ms)
+[2023-03-14T10:23:37.387Z][INFO] GET '/project/dependencies' <-- Request received
+[2023-03-14T10:23:37.426Z][INFO] Resolving dependencies using SAT solver
+[2023-03-14T10:23:42.007Z][INFO] GET '/project/dependencies' --> 200 (4620 ms)
+[2023-03-14T10:23:42.049Z][INFO] GET '/project/dependencies' <-- Request received
+[2023-03-14T10:23:42.059Z][INFO] GET '/project/registries' <-- Request received
+[2023-03-14T10:23:42.069Z][INFO] GET '/project/registries' --> 200 (10 ms)
+[2023-03-14T10:23:42.086Z][INFO] Resolving dependencies using SAT solver
+[2023-03-14T10:23:44.140Z][INFO] GET '/project/dependencies' --> 200 (2091 ms)
